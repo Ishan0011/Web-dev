@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en">   <!-- "lang=eng" is an attribute(add more info to tag) -->
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,14 +8,19 @@
      <body>
         <h1>Fruits</h1>
         <ul>                <!-- <ul> for un orderd list -->
-            <li>Apple</li>
-            <li>Mango</li> 
-            <li>Orange</li>
+            <li>Apple <a href="https://en.wikipedia.org/wiki/Apple"> about apple</a></li> <!-- Anchor element- add link to your page -->
+            <li>Mango <a href="https://en.wikipedia.org/wiki/Mango"> about mango</a></li>  <!-- href- 'attribute' hyper text refernce-->
+            <li>Orange <a href="https://en.wikipedia.org/wiki/Orange_(fruit)"> about orange</a></li>
         </ul>
-        <ol type="a">       <!-- <ol> for orderd list //type defines specific(can be left)  -->    
-            <li>Apple</li>
-            <li>Mango</li>
+        <ol type="a">       <!-- <ol> for orderd list //type defines specific(can be left) | "type=a" is an attribute   -->   
+            <li>Apple  </li>
+             <img src="apple.jpg" alt ="Apple img" height="100px" width="100px">     <!-- Image element | relative url-in device *must be in same folder-->
+            <li>Mango</li> 
+             <img src="https://png.pngtree.com/png-vector/20250303/ourmid/pngtree-ripe-mango-fruit-with-leaf-for-healthy-snack-png-image_15699037.png" alt="mango" height="100px" width="100px">
+                                    <!--Absolute url - from internet -->
             <li>Orange</li>
+             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZbB_doR9LVg_xVbDXOOZc3TNbgNCEIzLLKw&s" alt= "orange img" height="100px" width="100px"> <!--alt displayed if not found image-->
         </ol>
+
      </body>
 </html>
