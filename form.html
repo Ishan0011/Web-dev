@@ -8,6 +8,7 @@
 <body>
     <form action="/action"></form> <!--form- collect data | action define next action to perform i.e redirectin a page etc-->
     <!--input attribute -->
+    <h2>Input</h2>
     Name
     <input type="text">
     <br>
@@ -25,5 +26,18 @@
     <br>
     <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input">More about FORM INPUT</a>
     <hr>  <!-- create a partition line -->
+    <h2>Placeholder & Label</h2>
+    <div> <!--label  connect input and text | palceholder define inside input--->
+
+          <!-- basic way of using label  -->
+        <label> 
+            Enter your user name: <input type="text" placeholder="Username">
+        </label>
+    <br>
+        <!-- classical approch of label -->
+         <label for="password">Enter your password</label>
+         <input type="password" id="password" placeholder="pass">
+    </div>
+    <hr>
 </body>
 </html>
