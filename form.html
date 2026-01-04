@@ -6,7 +6,7 @@
     <title>Forms in HTML</title>
 </head>
 <body>
-    <form action="/action"></form> <!--form- collect data | action define next action to perform i.e redirectin a page etc-->
+    <form action="/action"> <!--form- collect data | action define next action to perform i.e redirectin a page etc-->
     <!--input attribute -->
     <h2>Input</h2>
     Name
@@ -15,15 +15,6 @@
     Number 
     <input type="number">
     <br>
-    date
-    <input type="date">
-    <br>
-    Password
-    <input type="password" >
-    <br>
-    Color
-    <input type="color">
-    <br>
     <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input">More about FORM INPUT</a>
     <hr>  <!-- create a partition line -->
     <h2>Placeholder & Label</h2>
@@ -31,13 +22,22 @@
 
           <!-- basic way of using label  -->
         <label> 
-            Enter your user name: <input type="text" placeholder="Username">
+            Enter your user name: <input type="text" placeholder="Username" name="user_name"> <!--Name passes the data to next address -->
         </label>
     <br>
         <!-- classical approch of label -->
-         <label for="password">Enter your password</label>
-         <input type="password" id="password" placeholder="pass">
+         <label for="password">Enter your password</label >
+         <input type="password" id="password" placeholder="pass" name="password">
     </div>
-    <hr>
+    <button>Submit</button> <!--default type submit (action* in form)-->
+    <button type="button">hello</button>
+    <button type="reset">Reset</button>
+    <hr>  
+    </form>
+    <form action="https://www.youtube.com/results">
+        YT search
+        <input type="text" placeholder="search here " name="search_query" >
+        <button>Search</button>
+    </form>
 </body>
 </html>
