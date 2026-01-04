@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Checkbox</title>
+    </head>
+    <body>
+        <div>
+            <!-- CHECKBOX  :- multiple section-->
+            <form action="/server">
+                Select the subject:- 
+                    <input type="checkbox" id="eng" name="eng" checked > <!-- CHECKED makes it default selected-->
+                    <label for="eng">English</label>
+
+                    <input type="checkbox" id="mat" name="mat"  >
+                    <label for="mat">Maths</label>
+
+                    <input type="checkbox" id="com" name="com"  >
+                    <label for="com">Computer</label>
+                <button >Conform</button>
+            </form>
+        </div>
+     <hr>
+        <!-- Radio :- Button  allow to sellect any one  -->
+         <div>
+            <form action="/action">
+                Select the fruit you like 
+                <ul>
+                    <li>
+                        <input type="radio" id=" mango" name="fru" value="mango"> <!-- data inside a value* is sent to next page -->
+                        <label for="mango">Mango</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="bana" name="fru" value="bana">
+                        <label for="bana">Banana</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="app" name="fru" value="app">
+                        <label for="app">Apple</label>
+                    </li>
+                </ul>
+                <button>select</button>
+            </form>
+         </div>
+     <hr>
+         <!-- dropdown -->
+          <div>
+            Choose your profession:- 
+            <select name="proff" id="proff">
+                <option selected >Select</option> <!-- SELECTED make it default select option  -->
+                <option value="student">Student</option>
+                <option value="student">Student</option>
+                <option value="Staff">Staff</option>
+            </select>
+          </div>
+     <hr>
+          <!-- Range :- selction bar appear -->
+           <div>
+            <form action="/sever">
+            <label for="vol">Volume</label>
+            <input type="range" id="vol" min="0" max="100" name="volume" step="5" value="75" > <!--STEP make them move in fix value | VALUE make a bydefault value-->  
+            <button type="submit">OK</button>
+            </form>
+           </div>
+     <hr>
+         <!-- Text area element  -->
+          <div>
+            <form action="/feed">
+            <label for="feedback">Give your feedback</label> <br>
+            <textarea name="feedback" id="feedback" placeholder="write your feedback" rows="4" cols="40"></textarea> <!-- text area by default 2*20 row*column | can be change using row & col-->
+            <bUtton>Submit</bUtton>
+            </form>
+          </div>
+    </body>
+</html>
