@@ -11,4 +11,4 @@
  <h3>HEX Color System</h3>
  <p>Hexadecimal: Uses 0-9 and A-F (where A=10, B=11, C=12, D=13, E=14, F=15) <br> 
  color = #<u style = "color : red;" >ff</u><u style="color: green;">ff</u><u style="color: blue;">ff</u> <br>
- #fff = #ffffff & #0f0 = #00ff00</p>
+ shortform- #fff = #ffffff & #0f0 = #00ff00</p> 

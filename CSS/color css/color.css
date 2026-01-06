@@ -1,0 +1,18 @@
+/* color name system */
+h1{
+    color: orange;
+}
+ /* RGB color system */
+h2{
+    color: rgb(255, 000,000);
+}
+h3{
+    color: rgb(000, 255, 000);
+}
+h4{
+    color: rgb(000, 000, 255);
+}
+/* HEX color  */
+h5{
+    color: #f00; /*ff 00 00*/
+}

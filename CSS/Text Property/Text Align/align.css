@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+}
+h2{
+        text-align: end; /* can be use right/end | end may differ in diffent lang like arabic*/
+}
+
+h3{
+    text-align: right;
+    border: solid;
+    width:50%;
+}
+p {
+    text-align: justify; /*align text in between*/ 
+}
