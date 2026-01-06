@@ -5,7 +5,7 @@ This indicates whether the text is light or dark.
  font-weight: bold   //700   
  font-weight: 100    //100 -900 range
  ## they are relative to there parent 
- font-weight: bolder
+ font-weight: bolder   
  font-weight: lighter
   
   # Text Decoration 
@@ -14,4 +14,4 @@ This indicates whether the text is light or dark.
   text-decoration:way overline; /   
   text-decoration:dotted line-through;   
 
-  ### this can be also use to remove underline of an anchor tag
+  ### this can be also use to remove underline of an anchor tag  
