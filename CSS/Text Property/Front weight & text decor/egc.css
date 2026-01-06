@@ -1,0 +1,17 @@
+
+h1{
+    font-weight: lighter;
+    text-decoration:#f00 underline;
+}
+h2{
+    text-decoration: wavy overline;
+}
+h3{
+    text-decoration: dotted line-through;
+}
+a{
+    text-decoration: none;
+}
+p{
+    font-weight: 800; /*weigth*/
+}
