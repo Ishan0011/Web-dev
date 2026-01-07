@@ -1,4 +1,4 @@
-#Text Align
+# Text Align
 
 The `text-align` property is used to align text horizontally.  
 Common values include left, right, center, and justify.
@@ -10,7 +10,7 @@ Common values include left, right, center, and justify.
 
 ---
 
- ## 6. font-size
+ ## font-size
 The `font-size` property defines the size of the text.  
 It plays an important role in readability and responsive design.
 
