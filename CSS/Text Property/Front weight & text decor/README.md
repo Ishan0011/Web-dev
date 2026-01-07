@@ -1,5 +1,8 @@
 # Font Weight
-This indicates whether the text is light or dark.
+The `font-weight` property controls the thickness or boldness of text.  
+It can be set using keywords like normal or bold, or numeric values.
+
+---
 
  font-weight: normal //400   
  font-weight: bold   //700   
@@ -8,7 +11,12 @@ This indicates whether the text is light or dark.
  font-weight: bolder   
  font-weight: lighter
   
-  # Text Decoration 
+# Text Decoration 
+The `font-weight` property controls the thickness or boldness of text.  
+It can be set using keywords like normal or bold, or numeric values.
+
+---
+
   the design on text    
   text-decoration: red underline; /red define color of undreline can be left empty    
   text-decoration:way overline; /   
