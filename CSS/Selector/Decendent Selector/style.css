@@ -1,0 +1,8 @@
+p a{
+    color: red;
+}
+
+/*using class converting last buttons rather than whole*/
+.abc button{
+    color: aquamarine;
+}
