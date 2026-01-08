@@ -1,0 +1,11 @@
+h1::first-letter{
+    color: brown;
+}
+
+p::first-line{
+    color: greenyellow;
+}
+
+p::selection{  /* "p" selecting the paragraph will change the color*/
+    background-color: rgb(163, 158, 255);
+}
