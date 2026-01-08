@@ -6,3 +6,7 @@ p a{
 .abc button{
     color: aquamarine;
 }
+
+nav a {  /*directly can be written doesn't required (nav ul li a) */ 
+    text-decoration: wavy underline;
+}

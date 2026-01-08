@@ -1,0 +1,4 @@
+p + h3{
+    text-decoration: aqua underline;
+}
+/*any h3 not alternate to p  will not be included*/
