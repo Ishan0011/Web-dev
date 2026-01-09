@@ -1,0 +1,16 @@
+h1{
+    color: black;
+    background-color: rgb(101, 84, 117);
+}
+
+h1{   
+    color: antiquewhite;
+    background-color: black;   
+}   
+/* HERE- 0(id),0(class),1(element)  = 001 -priority. | both have similar priority 1&1 so order is applied */
+
+
+.review:hover{
+    color: blue;
+}
+ 
