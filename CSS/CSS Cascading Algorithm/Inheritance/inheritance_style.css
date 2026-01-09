@@ -1,0 +1,17 @@
+div {
+    background-color: aquamarine;
+}
+
+/* input / buttton does not come under inherentence so need to be specified  */
+
+input {
+    background-color: inherit;
+}
+
+button:hover{
+    background-color: beige;
+}
+
+p {
+    background-color: bisque; /*can be defined to remove inherentence*/
+}
