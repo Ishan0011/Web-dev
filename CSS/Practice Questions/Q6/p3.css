@@ -1,0 +1,7 @@
+div.greetDiv.greet { color:green; }
+
+.greetDiv p.greet { color: blue; }
+
+.greetDiv.greet { color:red; }
+
+/* blue as both green & blue are 21|21 so cascading property applied  */
