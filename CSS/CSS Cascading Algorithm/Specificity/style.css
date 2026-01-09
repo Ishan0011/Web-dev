@@ -10,7 +10,14 @@ h1{
 /* HERE- 0(id),0(class),1(element)  = 001 -priority. | both have similar priority 1&1 so order is applied */
 
 
+
 .review:hover{
-    color: blue;
+    color: red;
 }
- 
+ /* 020 class+attribute */
+
+ p label:hover{
+    color: blue;
+ }
+ /*012 1-class 2-element | hover above to see the Specificity*/
+/* 20 > 12 so above is selected */

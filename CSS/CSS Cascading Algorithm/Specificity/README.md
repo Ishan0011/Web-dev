@@ -10,12 +10,10 @@ its an algorithm that caalculate the weight that is applied to a given CSS decle
 
 __(id), __(class,attribute,pesudio-class), __(element & pesudio-element)     
    
-# id > class > element
+# Important points:- 
+1. id>class>element
+2. more selector > less selector
+3. if specificity same = oreder
 
 ---
-### eg:-
-h2{   
-    background-color: black;   
-}   
-
-**HERE** 0(id),0(class),1(element)  = 001 -priority.  
+ 
