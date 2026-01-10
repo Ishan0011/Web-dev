@@ -17,5 +17,14 @@ It surrounds the padding and content and helps define the shape and separation o
 
 ---
 
-Borders are an important part of the CSS box model and help control layout and design.
+# Border Shorthand in CSS
+
+The border shorthand property allows setting the border width, style, and color in a single declaration.
+
+The order of values is width, style, and color.
+
+div {    
+    border: 2px solid red;    
+}
+
 
