@@ -1,0 +1,29 @@
+/* PART A(Selectors) */
+
+/* ans 1 */
+#maintopic { 
+  color: blue;
+}
+
+/* ans 2 */
+*{
+    text-align: center;
+}
+
+/* ans 3 */
+h1 , h3 , h5{
+    font-family: Georgia;
+}
+
+/* ans 4 */
+.para {
+    color: white;
+    background-color: cornflowerblue;
+}
+
+/* ans 5 */
+div  button {
+    color: azure;
+    background-color: purple;
+}
+

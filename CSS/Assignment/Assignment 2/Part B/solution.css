@@ -1,0 +1,30 @@
+/* PART B(Pseduo class & elements)  */
+
+/* ans 6 */
+button:hover{
+    color: blue;
+    background-color: yellow;
+}
+
+/* ans 7 */
+p:nth-last-of-type(2n+1){  /* 2n+1 for odd type*/
+    background-color: yellow;
+}
+
+/* ans 8 */
+h1::first-letter{
+    color: red;
+}
+
+/* ans 9 */
+#yes:checked + label{
+    color: darkgreen;
+}
+
+/* ans 10:-
+ correct order is:-
+ #maincontent
+ div .main
+ .main
+ h1
+*/
