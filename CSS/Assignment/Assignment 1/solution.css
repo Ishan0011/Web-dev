@@ -1,0 +1,48 @@
+/* ans 1 in html body  */
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   text-align: center;
+}  
+
+h1{
+    text-align: center;  /* ans 3 */
+    color: #ff0000;  /* ans 4 */
+    font-family:Georgia; /* ans 5 */
+}
+
+h3 {
+ text-align: center;  /* ans 3 */
+ color: black; /* ans 4 */
+}
+
+h4 {
+    text-align: center; /* ans 3 */
+}
+
+p {
+    color: #A52A2A;   /* ans 2 */
+    text-align: center; /* ans 3 */
+    line-height: 30px;  /* ans 9 */
+}
+ div {
+    text-align: center; /* ans 3 */
+ }
+
+ a{
+    text-decoration: none; /* ans 6 */
+    color: rgb(0, 128, 0)   /* ans 6 */
+ }
+
+ button{
+    background-color: white;  /* ans 7 */
+    color: blueviolet;   /* ans 7 */
+ }
+
+ textarea{
+    color: #000; /* ans 8 */
+ }
+
+ 
+span{
+    text-decoration: underline;  /* ans 10 */
+}
