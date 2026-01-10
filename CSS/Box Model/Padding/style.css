@@ -1,0 +1,19 @@
+div {
+    height: 200px;
+    width: 400px; 
+    border: 2px solid red;
+    padding: 50px;  /* padding all side 50px */
+}
+
+h1{
+    border-width: 5px;
+    border-style: dotted;
+    border-color: chartreuse;
+    padding: 10px 20px 30px;     /* Top | Left & Right | Bottom */
+}
+
+h2{
+    border: 5px solid gray;
+    border-top: 5px dotted greenyellow; 
+    padding: 10px 20px 30px 40px;  /* Top | Right | Bottom | Left (Clockwise) */
+}
