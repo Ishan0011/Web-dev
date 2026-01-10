@@ -6,7 +6,7 @@ It increases the inner spacing of an element and affects the overall size of the
 
 Padding is an important part of the CSS box model and helps improve layout and readability.
 
-The are of:-   
+They are of:-   
 1. padding-left
 2. padding-right
 3. padding-top
