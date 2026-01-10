@@ -1,0 +1,13 @@
+div {
+    height: 200px;
+    width: 400px; 
+    border: 2px solid red;  
+
+    border-radius: 10px;
+}
+
+h1 {
+    border: 2px solid gray;  
+    border-top-right-radius: 20px; /* defining a perticular side */
+}
+
