@@ -1,3 +1,16 @@
 div {
-    border: 2px solid red;
+    height: 200px;
+    width: 400px; 
+    border: 2px solid red;  /* shorthand method */
+}
+
+h1{
+    border-width: 5px;
+    border-style: dotted;
+    border-color: chartreuse;
+}
+
+h2{
+    border: 5px solid gray;
+    border-top: 5px dotted greenyellow; /* border side changed */
 }

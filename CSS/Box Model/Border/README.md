@@ -27,4 +27,27 @@ div {
     border: 2px solid red;    
 }
 
+---
+
+# Border Sides in CSS
+
+Each side of an element can be styled separately to provide better layout control.
+
+## Border Sides
+
+- **border-top**  
+  Applies a border to the top side of an element.
+
+- **border-right**  
+  Applies a border to the right side of an element.
+
+- **border-bottom**  
+  Applies a border to the bottom side of an element.
+
+- **border-left**  
+  Applies a border to the left side of an element.
+
+---
+
+
 
