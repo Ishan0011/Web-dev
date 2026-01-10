@@ -1,0 +1,26 @@
+#outer{
+    height: 200px;
+    width: 70px;
+    border: 2px solid black;
+    border-radius: 0%;
+}
+
+div{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+#l1{
+    background-color: red;
+}
+
+#l2{
+    background-color: yellow;
+}
+
+#l3{
+    background-color: green;
+}
