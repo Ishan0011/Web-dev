@@ -25,7 +25,7 @@ Values are applied in a clockwise direction when more than one value is used.
 
 ### 1. All 4 sides
 Applies the same padding to all sides.  
-**padding: 50px**   
+**padding: 50px;**   
     
 ### 2. Top & Bottom | Left & Right
 The first value applies to top and bottom, the second to left and right.

@@ -1,0 +1,17 @@
+div {
+    height: 200px;
+    width: 400px; 
+    border: 2px solid red;
+    padding: 50px;  
+    margin: 10px 20px 30px 40px;  /* Top | Right | Bottom | Left (Clockwise) */
+}
+
+h1{
+    border: 5px dotted forestgreen;
+    margin: 50px; /* For all four sides */
+   
+}
+
+h2{
+    border: 5px solid gray;
+}
