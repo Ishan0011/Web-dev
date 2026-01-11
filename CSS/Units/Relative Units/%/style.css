@@ -1,0 +1,19 @@
+h1{
+    border: 2px dotted black;
+    width: 60%; /* 60% of body (as relative)*/
+}
+
+#outer{
+    height: 300px;
+    width: 300px;
+    background-color: aquamarine;
+    margin: 100px;
+}
+
+#inner {
+    height: 100px;
+    width: 100px;
+    background-color: darkseagreen;
+    margin: 50%; /* 50 relative to outer(300px) i.e. 150px */
+
+}

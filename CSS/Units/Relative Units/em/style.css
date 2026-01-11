@@ -1,0 +1,37 @@
+
+#outer{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(255, 249, 127);
+    border: 1px solid black;
+
+    font-size: 30px;
+    margin: 50px;
+}
+
+#inner {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(81, 175, 233);
+    border: 1px solid black;
+
+    font-size: 0.6em;   /*  relative to outer(30px*.6=18) */
+    padding: 1em;    /* relative to font size i.e. 18*1=18px */
+}
+
+button{
+    font-size: 50px;
+    border-radius: 15px;
+
+    /* setting button as em makes them propertional to text | ensure the unwanted extra or 
+    small padding area if text is diminished/enlarge(*px)  */
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+
+/* snowballing effect */
+
+div{
+    font-size: 2em;
+}
