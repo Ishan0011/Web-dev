@@ -1,0 +1,20 @@
+span{
+    /* background-color: rgb(231, 217, 238); */
+    border: 2px solid black;
+
+    /* no effect of height and width in span b/c it's inlne element */
+    height: 100px;
+    width: 200px;
+
+    /* over laping other except the content in same line :- for both */
+    padding: 50px; 
+    margin: 20px;
+    }
+
+div{
+    border: 2px solid black;
+    height: 100px;
+    width: 200px;
+    padding: 50px;
+    margin: 20px;
+} 
