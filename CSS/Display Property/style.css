@@ -18,3 +18,13 @@ div{
     padding: 50px;
     margin: 20px;
 } 
+
+h1{
+    border: 2px solid gray;
+  display: inline;  /* both act as an inline elment  */
+}
+
+
+h4{
+ display: none ; /* one; to remove the content from  page | use for temporary removal */
+}
