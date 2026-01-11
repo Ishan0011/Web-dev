@@ -25,5 +25,5 @@ The shorthand includes the following values in order:
 - **Timing function** – The speed curve of the transition  
 - **Delay** – Time before the transition starts  
     
-- `transition:margin-top 2s ease-in-out 0.2s;`
+- `transition:margin-top 2s ease-in-out 0.2s;` 
 ---
