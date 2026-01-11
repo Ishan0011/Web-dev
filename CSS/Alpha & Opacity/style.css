@@ -1,0 +1,12 @@
+#div1{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(255, 0, 0, 0.485);  /* only effect color portion */
+}
+
+#div2{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(255, 0, 0, 0.9);
+    opacity: 0.4;    /* make whole element into tanslusent */
+}
