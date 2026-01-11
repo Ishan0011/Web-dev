@@ -1,0 +1,15 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(143, 237, 240);
+    margin: 0 auto;          /*  auto to align center  */
+    margin-top: 10px;
+
+    transition: margin-top 1s ease-in-out 6ms ;
+}
+
+div:hover {
+    background-color: rgb(0, 93, 93);
+    border-radius: 50%;
+    margin-top: 200px;
+}
