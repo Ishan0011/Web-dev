@@ -16,13 +16,13 @@ div:nth-of-type(2n){
 
 /* Transform */
 #one{
-    transform: translate(30px,30px); 
+    transform: translate(30px,30px);  /* both direction X Y */
 }
 
 #two{
-    transform: translateX(30px) ;
+    transform: translateX(30px) ;  /* Along X */
 }
 
 #three {
-    transform: translateY(30px);
+    transform: translateY(30px);  /* Along Y */
 }
