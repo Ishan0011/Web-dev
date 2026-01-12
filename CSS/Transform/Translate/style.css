@@ -16,9 +16,13 @@ div:nth-of-type(2n){
 
 /* Transform */
 #one{
-    transform: rotate(-45deg);
+    transform: translate(30px,30px); 
 }
 
 #two{
-    transform: rotate(180deg);
+    transform: translateX(30px) ;
+}
+
+#three {
+    transform: translateY(30px);
 }
