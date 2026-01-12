@@ -1,0 +1,35 @@
+section{
+    margin-top: 100px;
+}
+div{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    border: 2px solid black;
+    background-color: #75B9BE;
+    margin: 20px;
+}
+div:nth-of-type(2n){
+    
+    background-color: #D0D6B5;
+}
+div:nth-of-type(3n){
+    background-color: #F9B5AC;
+}
+
+/* Transform */
+#one{
+    transform: scale(0.5); /* along both direction */
+}
+
+#two{
+    transform: scale(0.5, 2); /* along X Y */
+}
+
+#three{
+   transform: scalex(0.5); /* along x  */
+}
+
+#four{
+    transform: scaleY(0.5);  /* along Y  */
+} 
