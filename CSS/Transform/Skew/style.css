@@ -16,9 +16,13 @@ div:nth-of-type(2n){
 
 /* Transform */
 #one{
-    transform: rotate(-45deg);
+    transform: skew(30deg); 
 }
 
-#two{
-    transform: rotate(180deg);
+#two{ 
+    transform: skew(90deg); /* The element becomes infinitely stretched and disappear */
+}
+
+#three {
+    transform: skew(-30deg);
 }
