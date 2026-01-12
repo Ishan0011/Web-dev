@@ -13,3 +13,15 @@ div{
 div{  
     border-radius: 50%;    
 }  
+
+---
+
+# Border Radius Shorthand in CSS
+
+The `border-radius` shorthand property is used to round the corners of an element in a single declaration.
+
+It allows setting radius values for all corners at once or for each corner individually.
+
+Values are applied in a clockwise direction starting from the top-left corner.
+
+- `border-radius: 5px 5px 5px 5px;`
