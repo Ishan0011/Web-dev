@@ -1,0 +1,41 @@
+.face{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(239, 182, 90);
+    border-radius: 50%;
+}
+
+.mouth{
+    height: 75px;
+    width: 200px;
+    background-color: rgb(192, 57, 57);
+    border-radius: 0 0 30px 30px;
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 100px;
+}
+
+.left, .right {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    display: inline-block;
+    border-radius: 50px;
+    margin-top: 100px;
+    position: absolute;
+    margin-left: 100px;
+}
+
+.right{
+    margin-left: 250px ;
+}
+
+
+/* without absolute postion */
+/* .left{
+    margin-left: 120px;
+}
+
+.right{
+   margin-left: 60px;
+} */
