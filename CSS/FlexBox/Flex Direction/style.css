@@ -1,0 +1,49 @@
+#container{
+    height: 300px;
+    width: 80%;
+    background-color: bisque;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    /* flex-direction: row;  by default*/
+}
+h1{
+    text-align: center;
+}
+div{
+    height: 100px;
+    width: 300px;
+    color: antiquewhite;
+    text-align: center;
+    font-size: 1em;
+}
+/* Row reverse */
+#container2{
+    height: 300px;
+    width: 80%;
+    background-color: bisque;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row-reverse;
+}
+/* Column */
+#container3{
+    height: 300px;
+    width: 80%;
+    background-color: bisque;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction:column;
+}
+/* Column Reverse */
+#container4{
+    height: 300px;
+    width: 80%;
+    background-color: bisque;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column-reverse;
+}
