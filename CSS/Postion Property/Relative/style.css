@@ -1,0 +1,17 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: gray;
+    text-align: center;
+    margin: 20px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+#postion{
+    background-color: bisque;
+    position: relative;
+  /*   moves with respect to its orignal position */
+    top:100px;
+    left: 100px;
+}

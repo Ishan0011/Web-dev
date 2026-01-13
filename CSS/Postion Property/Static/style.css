@@ -1,0 +1,18 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: gray;
+    text-align: center;
+    margin: 20px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+#postion{
+   background-color: bisque;
+
+   position: static;
+/* the element remain uneffective by postion shifter top/left/right/bottom*/
+   top: 100px;    
+   left: 100px;  
+}
