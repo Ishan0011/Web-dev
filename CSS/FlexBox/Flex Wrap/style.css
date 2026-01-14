@@ -1,0 +1,41 @@
+#container{
+    height: 300px;
+    width: 80%;
+    background-color: bisque;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: nowrap;
+}
+h1{
+    text-align: center;
+}
+
+ div{
+    height: 100px;
+    width: 200px;
+    color: antiquewhite;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+
+#container2{
+    height: 300px;
+    width: 80%;
+    background-color: bisque;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#container3{
+    height: 300px;
+    width: 80%;
+    background-color: bisque;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
