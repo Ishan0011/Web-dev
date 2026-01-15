@@ -1,0 +1,16 @@
+#container{
+    height: 50px;
+    width: 900px;
+    background-color: palevioletred;
+    border: 2px solid green;
+    border-radius: 10px;
+    display: flex;
+}     
+
+#container div {
+    height: 50px;
+    width: 80px;
+    font-size: 24px; 
+    border: 2px solid black;
+    line-height: 50px;
+}
