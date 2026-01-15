@@ -1,0 +1,26 @@
+#container{
+    height: 300px;
+    width: 90%;
+    background-color: bisque;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+}
+h1{
+    text-align: center;
+}
+
+#container div{
+    height: 200px;
+    width: 400px;
+    color: antiquewhite;
+    text-align: center;
+    
+}
+#blue{
+   flex-shrink: 3;
+}
+
+#orange{
+    flex-shrink: 2;
+}

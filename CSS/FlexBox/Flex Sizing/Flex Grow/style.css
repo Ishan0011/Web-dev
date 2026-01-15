@@ -1,0 +1,27 @@
+#container{
+    height: 300px;
+    width: 80%;
+    background-color: bisque;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+}
+h1{
+    text-align: center;
+}
+
+#container div{
+    height: 100px;
+    width: 100px;
+    color: antiquewhite;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#blue{
+   flex-grow: 1;
+}
+
+#orange{
+    flex-grow: 2; /* giving twice as much space as blue */
+}
