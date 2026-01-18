@@ -6,6 +6,8 @@ It allows elements to be placed and aligned in both rows and columns.
 
 Grid provides precise control over layout structure and spacing.
 
+- `display: grid;` - block element | `display: inline-grid;` - converting inline elment
+
 ---
 
 # Grid Model in CSS
