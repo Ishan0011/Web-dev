@@ -1,0 +1,11 @@
+h1{
+    color: bisque;
+    background-color: rgb(64, 206, 206);
+}
+
+@media (orientation: landscape){
+    h1{
+        color: hotpink;
+        background-color: lime;
+    }
+}

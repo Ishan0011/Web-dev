@@ -1,0 +1,27 @@
+h1{
+    background-color: blanchedalmond;
+}
+
+@media (width : 400px) {   /* change color at 400px width size of screen */
+    h1{
+        background-color: brown;
+        color: antiquewhite;
+    }
+}
+
+@media (min-width: 400px) {  /* display div till 400px remove if less then that */
+  .abc1{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+  }  
+}
+
+@media (min-width: 300px) and (max-width: 400px) {  /* range between 300px-400px */
+    .abc{
+        height: 100px;
+        width: 100px;
+        background-color: blue;
+        margin: 20px;
+    }
+}
