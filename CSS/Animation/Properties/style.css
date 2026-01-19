@@ -1,0 +1,22 @@
+.ani{
+    height: 100px;
+    width: 200px;
+    background-color: rgb(73, 225, 225);
+    /* animation  */
+    animation-name: animation;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-timing-function: ease-in-out ;
+    animation-iteration-count: 3;
+    animation-direction: normal;
+    
+}
+
+@keyframes animation {
+    from{
+        font-size: 20px;
+    }
+    to{
+        font-size: 50px;
+    }
+}

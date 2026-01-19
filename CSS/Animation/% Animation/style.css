@@ -1,0 +1,20 @@
+.ani{
+    height: 100px;
+    width: 200px;
+    background-color: rgb(73, 225, 225);
+    /* animation  */
+    animation: animation 2s ease-in 1s 4 normal ;
+    
+}
+
+@keyframes animation {
+    0%{
+        background-color: aqua;
+    }
+    50%{
+        background-color: aquamarine;
+    }
+    100%{
+        background-color: green;
+    }
+}
