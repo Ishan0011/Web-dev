@@ -1,0 +1,27 @@
+div{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+.d1{
+    background-color: chartreuse;
+    position: relative;  /* must set position: relative; for z index to apply */
+    z-index: 2;
+}
+
+.d2{
+    background-color: aquamarine;
+    position: relative;
+    bottom: 50px;
+    z-index: -1;
+}
+
+.d3{
+    background-color: crimson;
+    position: relative;
+    bottom: 100px;
+    z-index: 1;
+}
