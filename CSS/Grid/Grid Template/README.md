@@ -33,7 +33,7 @@ It helps reduce repetitive code and makes grid layouts cleaner and more readable
 
 ## repeat() Function
 
-The `repeat()` function takes two values:
+The `grid-template-rows: repeat(3,1fr);` function takes two values:
 - **count** – Number of times the track should repeat
 - **size** – Size of each track
 
