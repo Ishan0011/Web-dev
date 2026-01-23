@@ -1,28 +1,16 @@
-# CSS Animations
+# CSS Animation Shorthand
 
-CSS Animations are used to animate HTML elements without using JavaScript.
-
-They allow smooth transitions between different states of an element.
+The `animation` shorthand property is used to define **multiple animation properties in a single line**.
 
 ---
 
-## @keyframes
+## Syntax
 
-The `@keyframes` rule is used to define an animation sequence.
-
-It acts as a template that describes how an element should change over time.
+`animation:` `name` `duration` `timing-function` `delay` `iteration-count` `direction`;
 
 ---
 
-## from and to
+## Example
 
-- **from**  
-  Represents the initial state of the animation.
-
-- **to**  
-  Represents the final state of the animation.
-
----
-
-The animation gradually changes the element’s properties from the initial state to the final state.
-
+```css
+animation: animation 2s ease-in 1s 4 normal;
