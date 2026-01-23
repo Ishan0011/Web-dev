@@ -4,13 +4,17 @@
     border: 12px solid rgb(190, 189, 189);
     border-top: 12px solid goldenrod;
     border-radius: 50%;
+    animation: load 2s linear 0s infinite normal ;
 }
 
 @keyframes load {
-    from{
-        transform: rotate(0 deg);
+    0%{
+        transform: rotate(0deg);
     }
-    to{
-        transform: rotate(360 deg);
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
     }
 }
