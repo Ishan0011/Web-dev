@@ -16,7 +16,6 @@ Font Awesome is the most popular icon library for web development.
 
 ### ✔ How to Use Font Awesome (CDN Method)
 
-Add this `<link>` in your HTML `<head>`:
+Add `link/tag` of font Awesome in your HTML `<head>` | can be found in ``https://cdnjs.com/libraries/font-awesome``
 
-```html
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
