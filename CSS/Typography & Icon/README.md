@@ -5,15 +5,6 @@ Good typography improves **readability, accessibility, and visual hierarchy**.
 
 ---
 
-## 1. Font Family
-
-Defines the typeface used for text.
-
-```css
-font-family: Arial, Helvetica, sans-serif;
-
----
-
 # Icons in Web Design
 
 Icons are small visual symbols used to improve UI/UX.  
