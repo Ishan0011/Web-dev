@@ -16,4 +16,4 @@
 ---
 
 ### CDN link on
-[CDN for css and java](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+[Bootstrap website for CDN](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
