@@ -1,0 +1,13 @@
+.container{
+    background-color: bisque;
+}
+
+.container-md{
+    margin-top: 15px;
+    background-color: blanchedalmond;
+}
+
+.container-fluid{
+    margin-top: 15px;
+    background-color: antiquewhite;
+}
