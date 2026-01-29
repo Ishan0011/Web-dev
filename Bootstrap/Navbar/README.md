@@ -14,4 +14,4 @@ Menus and dropdowns
 
 Search bars and buttons
 
-### [More about navbars](https://getbootstrap.com/docs/5.3/components/navbar/)
+### [More about Navbars](https://getbootstrap.com/docs/5.3/components/navbar/)
