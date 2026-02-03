@@ -9,7 +9,43 @@
         <link href="style.css" rel="stylesheet">
     </head>
     <body>
+        <h1>Form Select</h1>
         
+        <select class="form-select" name="sel" id="opt">
+            <option value="0" selected>Select an option</option>
+            <option value="1">one</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+        </select>
+
+        <hr>
+
+        <!-- sizing  -->
+        <label for="op">Select a city</label>
+        <select class="form-select form-select-lg mb-3 " id="op">
+            <option selected>Choose a city</option>
+            <option value="l">Lucknow</option>
+            <option value="d">Delhi</option>
+            <option value="m">Mumbai</option>
+        </select>
+
+        <label for="op">Select a city</label>
+        <select class="form-select form-select-sm mb-3 " id="op"> 
+            <option selected>Choose a city</option>
+            <option value="l">Lucknow</option>
+            <option value="d">Delhi</option>
+            <option value="m">Mumbai</option>
+        </select>
+     <hr>
+        <!-- Multiple attribute -->
+        <label for="op">Select a city</label>
+        <select class="form-select"  id="op" multiple aria-label="Multiple select example"> 
+            <option selected>Choose a city</option>
+            <option value="l">Lucknow</option>
+            <option value="d">Delhi</option>
+            <option value="m">Mumbai</option>
+        </select>
+
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
