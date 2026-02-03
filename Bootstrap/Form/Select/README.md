@@ -4,4 +4,4 @@
 
 ### 📌 Syntax
 
-`<select class="form-select"></select>`
+`<select class="form-select"> </select>`  
