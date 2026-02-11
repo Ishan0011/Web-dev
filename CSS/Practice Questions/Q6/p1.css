@@ -1,0 +1,13 @@
+h1{
+    color: pink;
+}
+
+#greet{
+    color: yellow;
+} 
+
+.myclass {
+    color: brown;
+}
+
+/* ans - color will be yellow  */

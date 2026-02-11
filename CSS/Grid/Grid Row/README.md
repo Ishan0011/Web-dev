@@ -1,32 +1,32 @@
-# Grid Columns in CSS
+# Grid Rows in CSS
 
-Grid columns are used to define where a grid item starts and ends along the column axis.
+Grid rows are used to define where a grid item starts and ends along the row axis.
 
-They allow precise horizontal placement of items within a CSS Grid layout.
-
----
-
-## grid-column-start
-
-The `grid-column-start` property specifies the starting column line of a grid item.
-
-It uses grid line numbers to position the item.
+They control the vertical placement of items inside a CSS Grid layout.
 
 ---
 
-## grid-column-end
+## grid-row-start
 
-The `grid-column-end` property specifies the ending column line of a grid item.
+The `grid-row-start` property specifies the starting row line of a grid item.
 
-It defines where the item stops along the column axis.
+It uses grid line numbers to position the item vertically.
 
 ---
 
-## grid-column (Shorthand)
+## grid-row-end
 
-The `grid-column` shorthand combines start and end positions.
+The `grid-row-end` property specifies the ending row line of a grid item.
 
-- start column / end column  
-- start column / span number  
+It defines where the item stops along the row axis.
 
-It simplifies column placement in grid layouts.
+---
+
+## grid-row (Shorthand)
+
+The `grid-row` shorthand combines start and end row positions.
+
+- start row / end row  
+- start row / span number  
+
+It simplifies vertical placement of grid items.

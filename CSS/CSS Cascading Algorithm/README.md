@@ -10,7 +10,7 @@ CSS applies styles based on the following order of priority.
 
 1. **Importance**
 2. **Specificity**
-3. **Source Order**
+3. **Source Ord
 4. **Inline Specificity**
 
 ---

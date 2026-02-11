@@ -13,6 +13,6 @@ input[type="radio"]:checked + label{ /*input + label to change both cause they h
     font-weight: bold;
 }
 
-div:nth-of-type(2n) {
+div:nth-of-type(2n) {  
    background-color: cadetblue;
 }
