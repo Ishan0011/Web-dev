@@ -1,0 +1,67 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+
+    margin: 0%; /* remove extra space */
+    background-color: #000;
+    color: #fff;
+    overflow: hidden; /* so that all content on website is not scrollable */
+}
+
+/* content area */
+.main{
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar{
+    background-color: #000;
+    width: 340px;
+    border-radius: 1rem;
+}
+
+.main-content{
+    background-color: #151515 ;
+    flex: 1; /* gives remaning space on page */
+    border-radius: 1rem; /* 1rem = 16px  may change respective to page size*/
+    overflow: auto; /* for scroll-able main context */
+}
+
+.music-player{
+    background-color: #000;
+    bottom: 0;
+    position: fixed;
+    height: 80px;
+    width: 100%;
+}
+
+/* Navigation */
+.nav{
+    background-color: #121212;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+    padding: 0.5rem 1rem;
+    justify-content: center;
+}
+
+.nav-option{
+   padding: .4rem;
+   opacity: .5;
+}
+.nav-option:hover{
+    opacity: 1;
+}
+.nav-option i{
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+.nav-option a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    /* margin-left: 1rem; */
+}
