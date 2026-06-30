@@ -28,7 +28,6 @@ body{
     border-radius: 1rem; /* 1rem = 16px  may change respective to page size*/
     overflow: auto; /* for scroll-able main context */
 }
-
 .music-player{
     background-color: #000;
     bottom: 0;
@@ -36,7 +35,6 @@ body{
     height: 80px;
     width: 100%;
 }
-
 /* Navigation */
 .nav{
     background-color: #121212;
